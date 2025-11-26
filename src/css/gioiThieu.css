@@ -1,0 +1,448 @@
+
+.container {
+    width: 1372px;      
+    margin: 0 auto;    
+    box-sizing: border-box;
+}
+
+.breadcrumb-wrapper {
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.home-icon {
+    width: 28px;
+    height: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 21px;
+    padding-right: 17px;
+}
+
+.breadcrumb-content {
+    position: relative;
+    background-color:#95CC44;
+    width: 942px;
+    height: 39px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-text {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.breadcrumb-line {   
+    position: absolute;       
+    width: 1380px;
+    height: 20px;
+    background: #009950;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.post-header {
+    margin-bottom: 10px;
+}
+
+.post-title {
+    color: #009950;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.post-meta {
+    color: #000;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero-image-wrapper {
+    position: relative;
+    width: 1380px;
+    height: 501.106px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.btn-read-more {
+    position: absolute;
+    bottom: 40px;          
+    left: 50%;
+    transform: translateX(-50%); 
+    
+    width: 180px;
+    height: 50px;       
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background: #02542D;
+    transition: background 0.3s;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-read-more:hover {
+    background-color: #14AE5C;  
+}
+
+.company-intro {
+    margin-top: 47.89px; 
+}
+
+.company-title {
+    color: #14AE5C;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 41px;
+}
+
+.intro-box {
+    background-color: #E9F5D9;     
+    border-radius: 4px;
+    width: 1380px;
+    height: 425px;  
+        
+}
+
+.intro-box p {
+    width: 1246px;
+    height: 61px;
+    color: #303030;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 67px;
+    padding-right: 67px; 
+}
+
+.intro-box p:first-child {
+    padding-top: 46px;
+    margin-bottom: 30px;
+}
+
+.intro-box p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.intro-btn-wrapper {
+    padding-top: 30px;
+    padding-left: 600px;
+    padding-right: 600px;
+
+}
+
+.btn-intro-readmore {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    background: #02542D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-layout {
+    display: flex;
+    gap: 14px; 
+    margin-top: 12px;
+    align-items: stretch;
+}
+
+.left-content {
+    width: 902px;
+    height: 1789px;
+    background: #E7F1D4;
+}
+
+.info-list {
+    list-style: none; 
+    padding: 0;
+    /* margin: 0 0 18px 0; */
+    padding-top: 35px;
+    padding-left: 67px;
+    padding-right: 42px;
+    color: #303030;
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+}
+
+.info-list .money {
+    color: #303030;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.section-title {
+    color: #14AE5C;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 67px;
+    padding-right: 42px;
+}
+
+.section-conent-1 {
+    width: 793px;
+    height: 161px;
+    padding-left: 67px;
+    padding-right: 42px;
+}
+
+.section-content-2 {
+    width: 793px;
+    height: 103px;
+    padding-left: 67px;
+    padding-right: 42px;
+}
+
+.section-content-3 {
+    width: 793px;
+    padding-left: 67px;
+    padding-right: 42px;
+}
+
+.section-content-4{
+    padding-left: 67px;
+    padding-right: 42px;
+}
+
+.left-content p {
+    color: #303030;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.left-content strong {
+    color: #303030;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 130% */
+}
+
+.right-sidebar {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar-item {
+    position: relative;
+}
+
+.sidebar-item .sidebar-item1 {
+    width: 464px;
+    height: 573px;
+    aspect-ratio: 464/573;
+}
+
+.sidebar-item .sidebar-item2 {
+    width: 464px;
+    height: 530px;
+    aspect-ratio: 232/265;
+}
+
+.sidebar-item .sidebar-item3 {
+    width: 464px;
+    height: 654px;
+    aspect-ratio: 232/327;
+}
+
+.btn-sidebar-more {
+    position: absolute;
+    bottom: 5px;    
+    right: 0;       
+    
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    background: #02542D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* --- RESPONSIVE  --- */
+@media (max-width: 576px) {
+    .container {
+        width: 100% !important;
+        padding-left: 49px;
+        padding-right: 46px;
+    }
+
+    .breadcrumb-wrapper {
+        width: 100% !important;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .breadcrumb-content{ 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* padding-left: 21px; */
+        box-sizing: border-box;
+        width: 481px;
+        height: 53px;
+    }
+
+    .breadcrumb-icon {
+        width: 28px;
+        height: 23px;
+    }
+
+    .breadcrumb-text {
+        color: #FFF;
+        font-family: "Inter";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .breadcrumb-line {
+        display: none; 
+    }
+
+    .post-header {
+        text-align: left; /* Hoặc center tùy bạn */
+        margin-bottom: 20px;
+    }
+
+    .post-title {
+        width: 481px;
+        height: 48px;
+        color: #009950;
+        font-family: "Inter";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 133.333% */
+        padding-bottom: 24px;
+    }
+
+    .post-meta {
+        color: #000;
+        font-family: "Inter";
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .hero-image-wrapper {
+        width: 481px;
+        height: 174.037px;
+    }
+    
+    .btn-read-more {
+        display: none;
+    }
+ 
+    .company-intro {
+        margin-top: 38.96px;
+        margin-bottom: 39px;
+    }
+
+    .company-title {
+        color: #14AE5C;
+        text-align: center; 
+        font-family: "Inter";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        align-items: start;
+    }
+
+    /* Hộp màu xanh nhạt chứa chữ */
+    .intro-box {
+        padding: 30px 20px; /* Giảm padding từ 60px xuống 20px cho thoáng */
+    }
+    
+    .intro-box p {
+        font-size: 14px; /* Chữ nhỏ lại chút cho dễ đọc trên mobile */
+        text-align: justify; /* Căn đều 2 bên */
+    }
+
+    /* 6. Layout 2 cột (Text và Ảnh bên dưới) -> Chuyển thành 1 cột */
+    .detail-layout {
+        flex-direction: column; /* Xếp chồng dọc */
+    }
+
+    .left-content {
+        padding: 20px; /* Giảm padding cột trái */
+        order: 1; /* Hiển thị trước */
+    }
+    
+    .right-sidebar {
+        width: 100%; /* Sidebar ảnh full chiều rộng */
+        order: 2; /* Hiển thị sau */
+        margin-top: 20px;
+    }
+}
