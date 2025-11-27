@@ -1,0 +1,56 @@
+.site-footer {
+    width: 100%;
+    height: 156px;
+    background-color: #95CC44;
+    margin-top: 46px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 137px;
+    transform: translateX(12px);
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 49.61px;
+    height: 65.6px;
+    object-fit: contain;
+}
+
+.footer-company-name {
+    margin-left: 21.39px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #02542D;
+    line-height: 1.2;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-line {
+    margin: 2px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #02542D;
+    line-height: 1.4;
+    white-space: nowrap;
+}
