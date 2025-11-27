@@ -1,6 +1,6 @@
 .container {
-    width: 1372px;      
-    margin: 0 auto;    
+    width: 1372px;
+    margin: 0 auto 44px auto;
     box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@
 
 .breadcrumb-content {
     position: relative;
-    background-color:#95CC44;
+    background-color: #95CC44;
     width: 1023px;
     height: 39px;
     z-index: 2;
@@ -243,7 +243,7 @@
     line-height: normal;
     margin: 0;
     padding-top: 12px;
-}   
+}
 
 
 .sidebar-widget__content p {

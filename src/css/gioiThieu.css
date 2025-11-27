@@ -1,7 +1,6 @@
-
 .container {
-    width: 1372px;      
-    margin: 0 auto;    
+    width: 1372px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -21,7 +20,7 @@
 
 .breadcrumb-content {
     position: relative;
-    background-color:#95CC44;
+    background-color: #95CC44;
     width: 942px;
     height: 39px;
     z-index: 2;
@@ -40,8 +39,8 @@
     padding-bottom: 7px;
 }
 
-.breadcrumb-line {   
-    position: absolute;       
+.breadcrumb-line {
+    position: absolute;
     width: 1380px;
     height: 20px;
     background: #009950;
@@ -87,12 +86,12 @@
 
 .btn-read-more {
     position: absolute;
-    bottom: 40px;          
+    bottom: 40px;
     left: 50%;
-    transform: translateX(-50%); 
-    
+    transform: translateX(-50%);
+
     width: 180px;
-    height: 50px;       
+    height: 50px;
     border-radius: 30px;
     border: 1px solid #FFF;
     background: #02542D;
@@ -109,11 +108,11 @@
 }
 
 .btn-read-more:hover {
-    background-color: #14AE5C;  
+    background-color: #14AE5C;
 }
 
 .company-intro {
-    margin-top: 47.89px; 
+    margin-top: 47.89px;
 }
 
 .company-title {
@@ -128,9 +127,9 @@
 }
 
 .intro-box {
-    background-color: #E9F5D9;     
+    background-color: #E9F5D9;
     width: 1380px;
-    height: 425px;      
+    height: 425px;
 }
 
 .intro-box p {
@@ -144,7 +143,7 @@
     font-weight: 400;
     line-height: 26px;
     padding-left: 67px;
-    padding-right: 67px; 
+    padding-right: 67px;
 }
 
 .intro-box p:first-child {
@@ -181,7 +180,7 @@
 
 .detail-layout {
     display: flex;
-    gap: 14px; 
+    gap: 14px;
     margin-top: 12px;
     align-items: stretch;
 }
@@ -193,7 +192,7 @@
 }
 
 .info-list {
-    list-style: none; 
+    list-style: none;
     /* margin: 0 0 18px 0; */
     padding-top: 35px;
     padding-left: 67px;
@@ -204,7 +203,8 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 130% */
+    line-height: 26px;
+    /* 130% */
 }
 
 .info-list .money {
@@ -247,7 +247,7 @@
     padding-right: 42px;
 }
 
-.section-content-4{
+.section-content-4 {
     padding-left: 67px;
     padding-right: 42px;
 }
@@ -268,13 +268,15 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 26px; /* 130% */
+    line-height: 26px;
+    /* 130% */
 }
 
 .right-sidebar {
-    
+
     display: flex;
     flex-direction: column;
+    margin-bottom: 153px;
     gap: 12px;
 }
 
@@ -302,9 +304,9 @@
 
 .btn-sidebar-more {
     position: absolute;
-    bottom: 5px;    
-    right: 0;       
-    
+    bottom: 5px;
+    right: 0;
+
     color: #FFF;
     font-family: "Inter";
     font-size: 24px;
@@ -319,7 +321,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .mobile-only-image-wrapper {
@@ -327,7 +329,8 @@
 }
 
 .mobile-dot {
-    display: none;;
+    display: none;
+    ;
 }
 
 
@@ -345,7 +348,7 @@
         display: block;
     }
 
-    .breadcrumb-content{ 
+    .breadcrumb-content {
         padding-top: 15px;
         padding-bottom: 15px;
         /* padding-left: 21px; */
@@ -369,11 +372,12 @@
     }
 
     .breadcrumb-line {
-        display: none; 
+        display: none;
     }
 
     .post-header {
-        text-align: left; /* Hoặc center tùy bạn */
+        text-align: left;
+        /* Hoặc center tùy bạn */
         margin-bottom: 20px;
     }
 
@@ -385,7 +389,8 @@
         font-size: 24px;
         font-style: normal;
         font-weight: 700;
-        line-height: 32px; /* 133.333% */
+        line-height: 32px;
+        /* 133.333% */
         padding-bottom: 24px;
     }
 
@@ -402,11 +407,11 @@
         width: 481px;
         height: 174.037px;
     }
-    
+
     .btn-read-more {
         display: none;
     }
- 
+
     .company-intro {
         margin-top: 38.96px;
         margin-bottom: 39px;
@@ -414,7 +419,7 @@
 
     .company-title {
         color: #14AE5C;
-        text-align: center; 
+        text-align: center;
         font-family: "Inter";
         font-size: 30px;
         font-style: normal;
@@ -425,16 +430,16 @@
     }
 
     .company-title br {
-        display: none; 
+        display: none;
     }
 
     .intro-box {
-        background-color: #E9F5D9;     
+        background-color: #E9F5D9;
         width: 576px;
-        height: 416px;   
-        margin-left: -50px;   
+        height: 416px;
+        margin-left: -50px;
     }
-    
+
     .intro-box p {
         width: 481px;
         height: 245px;
@@ -445,8 +450,9 @@
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 26px; /* 130% */
-        
+        line-height: 26px;
+        /* 130% */
+
     }
 
     .intro-box p:first-child {
@@ -477,13 +483,14 @@
     }
 
     .detail-layout {
-        flex-direction: column; /* Xếp chồng dọc */
+        flex-direction: column;
+        /* Xếp chồng dọc */
     }
 
     .left-content {
         width: 576px;
         height: 1456px;
-        margin-left: -50px; 
+        margin-left: -50px;
     }
 
     .info-list {
@@ -496,7 +503,7 @@
 
     .mobile-only-image-wrapper {
         display: block;
-        
+
         padding-left: 50px;
         padding-right: 34px;
     }
@@ -510,7 +517,7 @@
     .mobile-dot {
         display: inline-block;
     }
-    
+
     .right-sidebar {
         display: none;
     }
@@ -539,7 +546,7 @@
 
     .btn-sidebar-more.mobile-dot {
         position: static;
-        display: block;    
+        display: block;
         color: #FFF;
         font-family: "Inter";
         font-size: 24px;

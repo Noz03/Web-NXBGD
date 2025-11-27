@@ -1,6 +1,6 @@
 .container {
-    width: 1372px;      
-    margin: 0 auto;    
+    width: 1372px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@
 
 .breadcrumb-content {
     position: relative;
-    background-color:#95CC44;
+    background-color: #95CC44;
     width: 942px;
     height: 39px;
     z-index: 2;
@@ -39,8 +39,8 @@
     padding-bottom: 7px;
 }
 
-.breadcrumb-line {   
-    position: absolute;       
+.breadcrumb-line {
+    position: absolute;
     width: 1380px;
     height: 20px;
     background: #009950;
@@ -80,7 +80,7 @@
 
 .filter-form {
     display: flex;
-    gap: 21px; 
+    gap: 21px;
 }
 
 .filter-group {
@@ -99,7 +99,7 @@
     line-height: normal;
 }
 
-.filter-input, 
+.filter-input,
 .filter-select {
     border-radius: 17.5px;
     background: #FFF;
@@ -136,12 +136,12 @@
     height: 35px;
 }
 
-.group-class select{
+.group-class select {
     width: 193px;
     height: 35px;
 }
 
-.group-category select{
+.group-category select {
     width: 193px;
     height: 35px;
 }
@@ -165,7 +165,7 @@
 }
 
 .cat-item {
-    position: relative;       
+    position: relative;
     text-decoration: none;
     transition: transform 0.3s;
     width: 443.715px;
@@ -173,29 +173,29 @@
 }
 
 .cat-bg {
-    position: absolute; 
+    position: absolute;
     top: 0;
     left: 0;
-    object-fit: cover; 
-    z-index: 1;         
+    object-fit: cover;
+    z-index: 1;
 }
 
 .cat-content {
-    position: relative; 
-    z-index: 2;              
-    display: flex;     
+    position: relative;
+    z-index: 2;
+    display: flex;
     /* align-items: center; */
     /* justify-content: center; */
-    gap: 8.79px;        
+    gap: 8.79px;
 }
 
-.cat-img {  
+.cat-img {
     width: 171.36px;
     height: 217.806px;
     padding-left: 46.85px;
     padding-top: 31.29px;
     padding-bottom: 31.29px;
-} 
+}
 
 .cat-title {
     padding-top: 128px;
@@ -209,9 +209,9 @@
 }
 
 .product-list-wrapper {
-    display: flex;    
+    display: flex;
     gap: 21px;
-    margin-bottom: 50px;
+    margin-bottom: 91px;
 }
 
 .product-thumb img {
@@ -245,5 +245,4 @@
     font-weight: 900;
     line-height: normal;
     padding-top: 6px;
-
 }
