@@ -1,0 +1,334 @@
+.container {
+    width: 1372px;      
+    margin: 0 auto;    
+    box-sizing: border-box;
+}
+
+.page-header-container {
+    display: flex;
+    gap: 32px;
+}
+
+.breadcrumb-wrapper {
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.home-icon {
+    width: 28px;
+    height: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 21px;
+    padding-right: 17px;
+}
+
+.breadcrumb-content {
+    position: relative;
+    background-color:#95CC44;
+    width: 1023px;
+    height: 39px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-text {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.post-header {
+    margin-bottom: 10px;
+}
+
+.post-title {
+    color: #009950;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.post-meta {
+    color: #000;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+
+.left-content {
+    position: relative;
+}
+
+.news-section {
+    position: relative;
+}
+
+.leaf-background-box {
+    position: absolute;
+    background-image: url("../images/Maskgroup.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    /* background-size: contain; */
+    margin-left: -270px;
+    width: 1706.667px;
+    height: 328px;
+    z-index: -1;
+    top: 264px;
+}
+
+.news-section__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25.1px;
+    margin-top: 21px;
+    width: 1023px;
+}
+
+.news-card__image-wrapper {
+    width: 324.267px;
+    height: 251.892px;
+    background: #95CC44;
+    background-image: url("../images/Group\ 4.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: 3;
+}
+
+.news-card__image {
+    width: 293.046px;
+    height: 185.194px;
+    padding-top: 16.32px;
+    padding-left: 15.61px;
+}
+
+.news-card__date-wrapper {
+    display: flex;
+    gap: 11.35px;
+}
+
+.news-card__date-wrapper img {
+    width: 14.191px;
+    height: 14.191px;
+    padding-top: 19.16px;
+    padding-left: 15.61px;
+}
+
+.news-card__date {
+    margin-top: 18.45px;
+    width: 80.093px;
+    height: 16.921px;
+    color: #303030;
+    font-family: "Inter";
+    font-size: 12.58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.news-card__content {
+    width: 324.267px;
+    height: 227.767px;
+    background: #FFF;
+}
+
+.news-card__title {
+    width: 293.046px;
+    height: 37.606px;
+    color: #303030;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 18.45px;
+    padding-left: 15.61px;
+}
+
+.news-card__title a:hover {
+    color: #007234;
+}
+
+.news-card__description {
+    width: 295.175px;
+    height: 102.176px;
+    color: #303030;
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+    padding-left: 13.48px;
+    padding-right: 15.61px;
+}
+
+.about__cta2 {
+    width: 127.72px;
+    height: 35.478px;
+    border-radius: 17.739px;
+    background: #02542D;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 15.096px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 97.21px;
+    margin-right: 99.34px;
+}
+
+.about__cta2:hover {
+    background-color: #003324;
+}
+
+.sidebar-widget__header {
+    width: 325px;
+    height: 39px;
+    background: #02542D;
+    display: flex;
+    gap: 19px;
+    margin-bottom: 6px;
+}
+
+.sidebar-widget__header svg {
+    width: 18px;
+    height: 18px;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.sidebar-widget__title {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.sidebar-widget__image {
+    width: 325px;
+    height: 130px;
+    aspect-ratio: 5/2;
+}
+
+.sidebar-widget__subtitle {
+    color: #14AE5C;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding-top: 12px;
+}   
+
+
+.sidebar-widget__content p {
+    width: 325px;
+    height: 53px;
+    color: #303030;
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-top: 4px;
+}
+
+.sidebar-widget__content p:last-child {
+    height: 64px;
+}
+
+.separate {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+.rectangle66 {
+    width: 70px;
+    height: 10px;
+    background: #02542D;
+}
+
+.rectangle67 {
+    width: 70px;
+    height: 6px;
+    background: #95CC44;
+    margin-top: 4px;
+}
+
+.sidebar-snippet {
+    display: flex;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-snippet:first-child {
+    margin-top: 19px;
+    margin-bottom: 0;
+}
+
+.sidebar-snippet__image {
+    width: 76px;
+    height: 63px;
+    margin: 0;
+}
+
+.sidebar-snippet__title {
+    color: #14AE5C;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.sidebar-snippet__content p {
+    width: 229px;
+    height: 52px;
+    color: #303030;
+    text-align: justify;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.line {
+    width: 324px;
+    height: 1px;
+    background: #777;
+    margin-bottom: 15px;
+}

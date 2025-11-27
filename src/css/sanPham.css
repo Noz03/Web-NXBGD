@@ -1,0 +1,249 @@
+.container {
+    width: 1372px;      
+    margin: 0 auto;    
+    box-sizing: border-box;
+}
+
+.breadcrumb-wrapper {
+    margin-bottom: 21px;
+    position: relative;
+}
+
+.home-icon {
+    width: 28px;
+    height: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 21px;
+    padding-right: 17px;
+}
+
+.breadcrumb-content {
+    position: relative;
+    background-color:#95CC44;
+    width: 942px;
+    height: 39px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-text {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.breadcrumb-line {   
+    position: absolute;       
+    width: 1380px;
+    height: 20px;
+    background: #009950;
+    margin-top: -20px;
+    z-index: 1;
+}
+
+.post-header {
+    margin-bottom: 10px;
+}
+
+.post-title {
+    color: #009950;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.post-meta {
+    color: #000;
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+
+.filter-section {
+    width: 1380px;
+    height: 98px;
+    background: #E7F1D4;
+}
+
+.filter-form {
+    display: flex;
+    gap: 21px; 
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 21px;
+}
+
+.filter-group label {
+    color: #14AE5C;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.filter-input, 
+.filter-select {
+    border-radius: 17.5px;
+    background: #FFF;
+    border: none;
+    appearance: none;
+    color: rgba(0, 0, 0, 0.30);
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 21px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.filter-input::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+}
+
+.group-search {
+    padding-left: 128px;
+}
+
+.group-search input {
+    width: 193px;
+    height: 35px;
+}
+
+.group-class select{
+    width: 193px;
+    height: 35px;
+}
+
+.group-category select{
+    width: 193px;
+    height: 35px;
+}
+
+.group-subject select {
+    width: 193px;
+    height: 35px;
+}
+
+.group-type select {
+    width: 263px;
+    height: 35px;
+}
+
+.highlight-categories {
+    width: 1380px;
+    display: flex;
+    gap: 24.43px;
+    margin-bottom: 59.62px;
+    margin-top: 28px;
+}
+
+.cat-item {
+    position: relative;       
+    text-decoration: none;
+    transition: transform 0.3s;
+    width: 443.715px;
+    height: 280.381px;
+}
+
+.cat-bg {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    object-fit: cover; 
+    z-index: 1;         
+}
+
+.cat-content {
+    position: relative; 
+    z-index: 2;              
+    display: flex;     
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 8.79px;        
+}
+
+.cat-img {  
+    width: 171.36px;
+    height: 217.806px;
+    padding-left: 46.85px;
+    padding-top: 31.29px;
+    padding-bottom: 31.29px;
+} 
+
+.cat-title {
+    padding-top: 128px;
+    padding-bottom: 128.38px;
+    color: #009950;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.product-list-wrapper {
+    display: flex;    
+    gap: 21px;
+    margin-bottom: 50px;
+}
+
+.product-thumb img {
+    transition: transform 0.3s ease;
+}
+
+.product-thumb:hover img {
+    transform: scale(1.05);
+}
+
+.product-name {
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-price {
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 6px;
+
+}
